@@ -34,6 +34,6 @@ You can also use the code in the web subscriber(sns-subscriber.py) to write your
 
 #### References and usefull links
 
-[simple-notification-service-sns](http://awsadvent.tumblr.com/post/37531769345/simple-notification-service-sns)
-[checking-email-with-python](http://stackoverflow.com/questions/1225586/checking-email-with-python)
-[extract only message pop3](http://bytes.com/topic/python/answers/627485-way-extract-only-message-pop3)
+1. [simple-notification-service-sns](http://awsadvent.tumblr.com/post/37531769345/simple-notification-service-sns)
+2. [checking-email-with-python](http://stackoverflow.com/questions/1225586/checking-email-with-pytho)
+3. [extract only message pop3](http://bytes.com/topic/python/answers/627485-way-extract-only-message-pop3)
