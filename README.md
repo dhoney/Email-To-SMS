@@ -17,9 +17,9 @@ You can also use the code in the web subscriber(sns-subscriber.py) to write your
 
 ### WebSubscriber
 
-1. Get flask installed
-2. Enter your topicarn in the file
-3. Run flask server: nohup python sns-pulbisher.py &
+1. Install flask
+2. Enter your topicarn in sns-subscriber.py
+3. Run flask server: *nohup python sns-pulbisher.py &*
 4. Make sure firewall rules are set and you have an elastic ip (recommended).
 5. Go to web page.
 6. Enter mobile phone number or email address you wish to subscribe, confirmation will be sent shortly after.
@@ -29,11 +29,11 @@ You can also use the code in the web subscriber(sns-subscriber.py) to write your
 
 1. Enter POP3 email and credential details into the sns-publish.py file.
 2. Enter topicarn.
-3. Run as cronjob. For example to run every 5 minutes: crontab */5 * * * * python sns-publish.py
+3. Run as cronjob. For example to run every 5 minutes: *crontab */5 * * * * python sns-publish.py*
 
 
 #### References and usefull links
 
-http://awsadvent.tumblr.com/post/37531769345/simple-notification-service-sns
-http://stackoverflow.com/questions/1225586/checking-email-with-python
-http://bytes.com/topic/python/answers/627485-way-extract-only-message-pop3
+[simple-notification-service-sns](http://awsadvent.tumblr.com/post/37531769345/simple-notification-service-sns)
+[checking-email-with-python](http://stackoverflow.com/questions/1225586/checking-email-with-python)
+[extract only message pop3](http://bytes.com/topic/python/answers/627485-way-extract-only-message-pop3)
